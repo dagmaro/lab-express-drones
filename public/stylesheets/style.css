@@ -91,3 +91,42 @@ button:active {
   width: 30%;
 }
 
+/* UPDATE AND CREATE.hbs styles */
+
+.update-create-container {
+  margin-top: 100px;
+}
+
+.title-container {
+  font-size: 30px;
+}
+
+.update-create-form {
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 4px solid rgba(213, 212, 236, 0.8);
+}
+
+.update-create-form label, input {
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+input[value] {
+  background-color: rgba(189, 197, 234, 0.8);
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: lighter;
+  width: 50%;
+}
+
+input {
+  background-color: rgba(189, 197, 234, 0.8);
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: lighter;
+  width: 50%;
+}
